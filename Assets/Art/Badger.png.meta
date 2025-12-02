@@ -1,28 +1,52 @@
 fileFormatVersion: 2
-guid: ee7a0de411cde084a9c52a0295ee0062
+guid: 9cb43cc522a4fe34bbe52998a51026db
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4608897844343487102
-    second: Badger_0
+      213: 6742362951800732869
+    second: Badger (1)_0
   - first:
-      213: -5281276218618103162
-    second: Badger_1
+      213: -287732130818160844
+    second: Badger (1)_1
   - first:
-      213: 760136804975358405
-    second: Badger_2
+      213: -6863993183201165022
+    second: Badger (1)_2
   - first:
-      213: -104253524969094781
-    second: Badger_3
+      213: 1035838697314439669
+    second: Badger (1)_3
   - first:
-      213: 6201358168141719867
-    second: Badger_4
+      213: 970832550793516967
+    second: Badger (1)_4
   - first:
-      213: -7577438432280075260
-    second: Badger_5
+      213: -4768003195619069050
+    second: Badger (1)_5
   - first:
-      213: 2442306456130326479
-    second: Badger_6
+      213: 7701339404858382767
+    second: Badger (1)_6
+  - first:
+      213: -713976527210781933
+    second: Badger (1)_7
+  - first:
+      213: 1115801674708864943
+    second: Badger (1)_8
+  - first:
+      213: -3112220475269911951
+    second: Badger (1)_9
+  - first:
+      213: 4374370342093291893
+    second: Badger (1)_10
+  - first:
+      213: -7508373168581989862
+    second: Badger (1)_11
+  - first:
+      213: -5566480301789821101
+    second: Badger (1)_12
+  - first:
+      213: 9133189245738947247
+    second: Badger (1)_13
+  - first:
+      213: 501104391516699307
+    second: Badger (1)_14
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -71,7 +95,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -93,7 +117,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -118,7 +142,271 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Badger_0
+      name: Badger (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc36d0d16fa19d50800000000000000
+      internalID: 6742362951800732869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Badger (1)_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 175
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4370e18c625c10cf0800000000000000
+      internalID: -287732130818160844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Badger (1)_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 175
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 221879e11923eb0a0800000000000000
+      internalID: -6863993183201165022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Badger (1)_3
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 175
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1d70e9ec9006e00800000000000000
+      internalID: 1035838697314439669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Badger (1)_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 175
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a71f6eaf07197d00800000000000000
+      internalID: 970832550793516967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Badger (1)_5
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 175
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683b2350b56a4ddb0800000000000000
+      internalID: -4768003195619069050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Badger (1)_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa95d41a267a0ea60800000000000000
+      internalID: 7701339404858382767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Badger (1)_7
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 150
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31362ad91227716f0800000000000000
+      internalID: -713976527210781933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Badger (1)_8
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 150
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fafcecc16bf1c7f00800000000000000
+      internalID: 1115801674708864943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Badger (1)_9
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 150
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ae6dc87fb2fc4d0800000000000000
+      internalID: -3112220475269911951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Badger (1)_10
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 150
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571897456a2e4bc30800000000000000
+      internalID: 4374370342093291893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Badger (1)_11
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 150
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1aa89d5266ecc790800000000000000
+      internalID: -7508373168581989862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Badger (1)_12
       rect:
         serializedVersion: 2
         x: 0
@@ -133,14 +421,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 285c7dd54d7e900c0800000000000000
-      internalID: -4608897844343487102
+      spriteID: 357cb9278a3efb2b0800000000000000
+      internalID: -5566480301789821101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Badger_1
+      name: Badger (1)_13
       rect:
         serializedVersion: 2
         x: 25
@@ -155,102 +443,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 68abc84b24325b6b0800000000000000
-      internalID: -5281276218618103162
+      spriteID: fa210b2ba3b9fbe70800000000000000
+      internalID: 9133189245738947247
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Badger_2
-      rect:
-        serializedVersion: 2
-        x: 50
-        y: 125
-        width: 25
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5c1b141956c8c8a00800000000000000
-      internalID: 760136804975358405
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Badger_3
-      rect:
-        serializedVersion: 2
-        x: 75
-        y: 125
-        width: 25
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 38182ada8fd9d8ef0800000000000000
-      internalID: -104253524969094781
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Badger_4
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 125
-        width: 25
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b39ed01d566af0650800000000000000
-      internalID: 6201358168141719867
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Badger_5
-      rect:
-        serializedVersion: 2
-        x: 125
-        y: 125
-        width: 25
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 404ad8094e787d690800000000000000
-      internalID: -7577438432280075260
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Badger_6
+      name: Badger (1)_14
       rect:
         serializedVersion: 2
         x: 0
@@ -265,14 +465,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fcf8a4e28c0d4e120800000000000000
-      internalID: 2442306456130326479
+      spriteID: baabdb30ac744f600800000000000000
+      internalID: 501104391516699307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Badger_7
+      name: Badger (1)_15
       rect:
         serializedVersion: 2
         x: 25
@@ -287,102 +487,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0689dacdfd0ac1b46aeccbbbb0cff394
-      internalID: 1344859034
+      spriteID: 5f502ee39acfdc44b866b655d878af6a
+      internalID: 829245786
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Badger_8
-      rect:
-        serializedVersion: 2
-        x: 50
-        y: 100
-        width: 25
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 96ab4e6a0690bfa4ba738f086289135c
-      internalID: -514421132
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Badger_9
-      rect:
-        serializedVersion: 2
-        x: 75
-        y: 100
-        width: 25
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d5513853df3ff7409da02bcf8e26b9f
-      internalID: 12354553
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Badger_10
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 100
-        width: 25
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7351d898a0727584c8a9b4a0f71b7abc
-      internalID: -1747803470
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Badger_11
-      rect:
-        serializedVersion: 2
-        x: 125
-        y: 100
-        width: 25
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 544bdc771ec1c16488d2151beefca449
-      internalID: -1316186842
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Badger_12
+      name: Badger (1)_16
       rect:
         serializedVersion: 2
         x: 0
@@ -397,14 +509,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d1188426ac56734c815cd7a2f106cfd
-      internalID: 469196965
+      spriteID: c9f3f94ac77c5384f9902965cdd70458
+      internalID: -1516955169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Badger_13
+      name: Badger (1)_17
       rect:
         serializedVersion: 2
         x: 25
@@ -419,14 +531,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17d273c3056e2b640a0fca8406d38fcc
-      internalID: 1562141813
+      spriteID: 5737c66d066634b4ca3686656101d072
+      internalID: 768907435
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Badger_14
+      name: Badger (1)_18
       rect:
         serializedVersion: 2
         x: 0
@@ -441,14 +553,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: caef255de10e8d24d9eec4a5b9e65abd
-      internalID: -1625682592
+      spriteID: bfa30323542bfb148bdea1408a13c032
+      internalID: -823640918
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Badger_15
+      name: Badger (1)_19
       rect:
         serializedVersion: 2
         x: 25
@@ -463,14 +575,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7c6dfb3e59a06b4e9559190600da5e6
-      internalID: 1637304444
+      spriteID: a8c662653fa6cdc4da7eab1da561bbb7
+      internalID: -241390454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Badger_16
+      name: Badger (1)_20
       rect:
         serializedVersion: 2
         x: 0
@@ -485,14 +597,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 761a781ccffaae64581b1ef9de34e90c
-      internalID: -295392533
+      spriteID: c6607a05fcc780e4e9d6452ae5e0e424
+      internalID: 310986411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Badger_17
+      name: Badger (1)_21
       rect:
         serializedVersion: 2
         x: 25
@@ -507,14 +619,102 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a7a03808098bf94abc7245f8e09258e
-      internalID: -31711006
+      spriteID: ca79eceff1fca2446b333f456f368b5c
+      internalID: 1949060043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Badger_18
+      name: Badger (1)_22
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 25
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73b533c38882ee41954d2b437079a87
+      internalID: 638816350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Badger (1)_23
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 25
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8d61980a4b4c34c98ac3905193c53e
+      internalID: 957226211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Badger (1)_24
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 25
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de352e9373a47c45973c91becc0170d
+      internalID: 1579350061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Badger (1)_25
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 25
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417b63a6023bd67478fd0d3ee4801bcd
+      internalID: -747139079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Badger (1)_26
       rect:
         serializedVersion: 2
         x: 0
@@ -529,14 +729,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12c9a158dcd111e4885be9eb7d0eda32
-      internalID: -371734753
+      spriteID: 7b91e361b03abcf498b8ec97e3ef2c09
+      internalID: 936848907
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Badger_19
+      name: Badger (1)_27
       rect:
         serializedVersion: 2
         x: 25
@@ -551,8 +751,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8cca0bda2c85f814887756ab91f8d22e
-      internalID: -1970606981
+      spriteID: 9737909b825bcec43b3fc5abb32cf60c
+      internalID: 2105922665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Badger (1)_28
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66b3cc39ad54ff42b17f1c9d2bba686
+      internalID: 1572877216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Badger (1)_29
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a96a968df72d704c94b400f029a544d
+      internalID: -848268188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Badger (1)_30
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4cf3725d5bffa42b07766acca3a8d4
+      internalID: -564262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Badger (1)_31
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 0
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430c496cf1ca1c748bc2fea4c81657ac
+      internalID: 1898257047
       vertices: []
       indices: 
       edges: []
@@ -561,7 +849,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 4c9b02d5c190afa4081ed10c82fd8dc3
+    spriteID: bd01343e688a2d74bbc1f471281689ca
     internalID: 0
     vertices: []
     indices: 
@@ -573,26 +861,38 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":25.0,"y":25.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Badger_0: -4608897844343487102
-      Badger_1: -5281276218618103162
-      Badger_10: -1747803470
-      Badger_11: -1316186842
-      Badger_12: 469196965
-      Badger_13: 1562141813
-      Badger_14: -1625682592
-      Badger_15: 1637304444
-      Badger_16: -295392533
-      Badger_17: -31711006
-      Badger_18: -371734753
-      Badger_19: -1970606981
-      Badger_2: 760136804975358405
-      Badger_3: -104253524969094781
-      Badger_4: 6201358168141719867
-      Badger_5: -7577438432280075260
-      Badger_6: 2442306456130326479
-      Badger_7: 1344859034
-      Badger_8: -514421132
-      Badger_9: 12354553
+      Badger (1)_0: 6742362951800732869
+      Badger (1)_1: -287732130818160844
+      Badger (1)_10: 4374370342093291893
+      Badger (1)_11: -7508373168581989862
+      Badger (1)_12: -5566480301789821101
+      Badger (1)_13: 9133189245738947247
+      Badger (1)_14: 501104391516699307
+      Badger (1)_15: 829245786
+      Badger (1)_16: -1516955169
+      Badger (1)_17: 768907435
+      Badger (1)_18: -823640918
+      Badger (1)_19: -241390454
+      Badger (1)_2: -6863993183201165022
+      Badger (1)_20: 310986411
+      Badger (1)_21: 1949060043
+      Badger (1)_22: 638816350
+      Badger (1)_23: 957226211
+      Badger (1)_24: 1579350061
+      Badger (1)_25: -747139079
+      Badger (1)_26: 936848907
+      Badger (1)_27: 2105922665
+      Badger (1)_28: 1572877216
+      Badger (1)_29: -848268188
+      Badger (1)_3: 1035838697314439669
+      Badger (1)_30: -564262
+      Badger (1)_31: 1898257047
+      Badger (1)_4: 970832550793516967
+      Badger (1)_5: -4768003195619069050
+      Badger (1)_6: 7701339404858382767
+      Badger (1)_7: -713976527210781933
+      Badger (1)_8: 1115801674708864943
+      Badger (1)_9: -3112220475269911951
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
