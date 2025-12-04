@@ -1,25 +1,34 @@
 fileFormatVersion: 2
-guid: df39e5c2c523d804e93deda0422a7009
+guid: fc48867c65a830b4ab1426be7877b484
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1127933441503263673
-    second: devil_0
+      213: 3066482061556547643
+    second: BanjoKeys_0
   - first:
-      213: 5343951658995598748
-    second: devil_1
+      213: 4066872263248083347
+    second: BanjoKeys_1
   - first:
-      213: -5692647946762411356
-    second: devil_2
+      213: 9168702857809031291
+    second: BanjoKeys_2
   - first:
-      213: -7807672741457143626
-    second: devil_3
+      213: -3297331886306053286
+    second: BanjoKeys_3
   - first:
-      213: 8275111362024837409
-    second: devil_4
+      213: 1276064870394158904
+    second: BanjoKeys_4
   - first:
-      213: 9170441290641061556
-    second: devil_5
+      213: -5216784482414765968
+    second: BanjoKeys_5
+  - first:
+      213: -1176176968147074315
+    second: BanjoKeys_6
+  - first:
+      213: -3043968317101742589
+    second: BanjoKeys_7
+  - first:
+      213: 5779079679017188693
+    second: BanjoKeys_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +61,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -115,133 +124,199 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: devil_0
+      name: BanjoKeys_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 25
-        height: 25
+        y: 110
+        width: 32
+        height: 41
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7440ae0d286c850f0800000000000000
-      internalID: -1127933441503263673
+      spriteID: b308f2520355e8a20800000000000000
+      internalID: 3066482061556547643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: devil_1
+      name: BanjoKeys_1
       rect:
         serializedVersion: 2
-        x: 25
-        y: 0
-        width: 25
-        height: 25
+        x: 57
+        y: 110
+        width: 32
+        height: 41
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c95ca4b68b7892a40800000000000000
-      internalID: 5343951658995598748
+      spriteID: 3997ac5b6ce607830800000000000000
+      internalID: 4066872263248083347
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: devil_2
+      name: BanjoKeys_2
       rect:
         serializedVersion: 2
-        x: 50
-        y: 0
-        width: 25
-        height: 25
+        x: 103
+        y: 110
+        width: 32
+        height: 41
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4a2aed57ad6aff0b0800000000000000
-      internalID: -5692647946762411356
+      spriteID: b70f0dadba6cd3f70800000000000000
+      internalID: 9168702857809031291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: devil_3
+      name: BanjoKeys_3
       rect:
         serializedVersion: 2
-        x: 75
-        y: 0
+        x: 153
+        y: 110
         width: 25
-        height: 25
+        height: 45
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6b852fa220395a390800000000000000
-      internalID: -7807672741457143626
+      spriteID: a53b8229e168d32d0800000000000000
+      internalID: -3297331886306053286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: devil_4
+      name: BanjoKeys_4
       rect:
         serializedVersion: 2
-        x: 100
-        y: 0
-        width: 25
-        height: 25
+        x: 0
+        y: 41
+        width: 32
+        height: 41
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1211a4ab0f917d270800000000000000
-      internalID: 8275111362024837409
+      spriteID: 83fd23e1d3e75b110800000000000000
+      internalID: 1276064870394158904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: devil_5
+      name: BanjoKeys_5
       rect:
         serializedVersion: 2
-        x: 125
-        y: 0
-        width: 25
-        height: 25
+        x: 37
+        y: 37
+        width: 37
+        height: 45
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4b63c3a44c3f34f70800000000000000
-      internalID: 9170441290641061556
+      spriteID: 078d5e727224a97b0800000000000000
+      internalID: -5216784482414765968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BanjoKeys_6
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 37
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2099477416dafe0800000000000000
+      internalID: -1176176968147074315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BanjoKeys_7
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 37
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3066b9771f6a1c5d0800000000000000
+      internalID: -3043968317101742589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BanjoKeys_8
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 37
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55d7f74695a633050800000000000000
+      internalID: 5779079679017188693
       vertices: []
       indices: 
       edges: []
@@ -250,7 +325,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3e1e8fa4c4f5a8f4e92caaea9112611a
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -258,16 +333,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":25.0,"y":25.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      devil_0: -1127933441503263673
-      devil_1: 5343951658995598748
-      devil_2: -5692647946762411356
-      devil_3: -7807672741457143626
-      devil_4: 8275111362024837409
-      devil_5: 9170441290641061556
+      BanjoKeys_0: 3066482061556547643
+      BanjoKeys_1: 4066872263248083347
+      BanjoKeys_2: 9168702857809031291
+      BanjoKeys_3: -3297331886306053286
+      BanjoKeys_4: 1276064870394158904
+      BanjoKeys_5: -5216784482414765968
+      BanjoKeys_6: -1176176968147074315
+      BanjoKeys_7: -3043968317101742589
+      BanjoKeys_8: 5779079679017188693
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
