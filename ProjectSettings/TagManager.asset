@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Camera1
   - HealthBarPlayer
+  - Note
   layers:
   - Default
   - TransparentFX
