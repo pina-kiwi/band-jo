@@ -1,9 +1,9 @@
 using System;
 using UnityEngine;
 
-public class CombatState : MonoBehaviour, IState
+public class CombatState : IState
 {
-    public Player player;
+    private Player player;
     public SceneChanger sceneChanger;
   
     public CombatState(Player player) =>  this.player = player;
