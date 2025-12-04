@@ -1,9 +1,9 @@
 using System;
 using UnityEngine;
 
-public class MainState : IState
+public class MainState : MonoBehaviour, IState
 {
-    private Player player;
+    public Player player;
     public SceneChanger sceneChanger;
     // public Move2D move;
     // public FirstBoss dialogue;
@@ -13,7 +13,6 @@ public class MainState : IState
 
     public void Enter()
     {
-        sceneChanger.LoadMainScene();
         // player.Reset();
         Console.WriteLine("Entering Walking State");
     }
@@ -21,6 +20,7 @@ public class MainState : IState
 
     public void Execute()
     {
+        Console.WriteLine("Executing Walking State");
         /*
         // handle movement logic
         move.Update();
