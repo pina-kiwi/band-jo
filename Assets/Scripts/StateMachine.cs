@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public interface IState
@@ -9,7 +8,7 @@ public interface IState
 }
 public class StateMachine : MonoBehaviour
 {
-    private IState currentState {get; set;}
+    public IState currentState {get; private set;}
 
 
     public void Initialize(IState startState)
@@ -32,5 +31,4 @@ public class StateMachine : MonoBehaviour
     {
         currentState?.Execute();
     }
-    
 }
