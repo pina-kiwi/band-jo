@@ -1,4 +1,3 @@
-using UnityEditor.Timeline;
 using UnityEngine;
 
 public class Move2D : MonoBehaviour
@@ -16,12 +15,7 @@ public class Move2D : MonoBehaviour
         InitializeComponents();
     }
 
-    void Start()
-    {
-        Animator = GetComponent<Animator>();
-    }
-
-    private void Update()
+    public void Update()
     {
         GetCombinedInput();
         UpdateAnimator();
@@ -82,33 +76,10 @@ public class Move2D : MonoBehaviour
     {
         if (Animator == null)
             return;
-
-        // -----------------------------
-        // 1. LIVE MOVEMENT INPUT
-        // -----------------------------
-        float x = currentMovementInput.x;
-        float y = currentMovementInput.y;
-
-        bool isMoving = x != 0 || y != 0;
-        Animator.SetBool("IsWalking", isMoving);
-
-        // Always update InputX/Y for the blend tree
-        Animator.SetFloat("InputX", x);
-        Animator.SetFloat("InputY", y);
-
-        // -----------------------------
-        // 2. SAVE LAST DIRECTION (for idle)
-        // -----------------------------
-        if (isMoving)
-        {
-            // Normalize so that diagonals give about (.7, .7)
-            Vector2 normalized = currentMovementInput.normalized;
-            Animator.SetFloat("LastInputX", normalized.x);
-            Animator.SetFloat("LastInputY", normalized.y);
-        }
+        
+        bool isWalking = IsMoving();
+        Animator.SetBool("IsWalking", isWalking);
     }
-
-
 
     private bool IsMoving()
     {
@@ -121,10 +92,10 @@ public class Move2D : MonoBehaviour
         if (SpriteRenderer == null)
             return;
 
-        /*if (IsMovingLeft())
+        if (IsMovingLeft())
             SpriteRenderer.flipX = true;
         else if (IsMovingRight())
-            SpriteRenderer.flipX = false;*/
+            SpriteRenderer.flipX = false;
     }
 
     private bool IsMovingLeft()
@@ -138,7 +109,7 @@ public class Move2D : MonoBehaviour
     }
 
     // Directly modifies transform.position (not using physics)
-    private void ApplyMovement()
+    public void ApplyMovement()
     {
         Vector3 movementDelta = CalculateMovementDelta();
         transform.position = transform.position + movementDelta;

@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 715383778904447542}
   - component: {fileID: 1316545875155363892}
   - component: {fileID: 7404548994000876624}
-  - component: {fileID: 424317154316551988}
-  - component: {fileID: 5827991459645916770}
-  - component: {fileID: 6672213459507496778}
+  - component: {fileID: 4066559922323818478}
+  - component: {fileID: -4739458859325449606}
+  - component: {fileID: -1291408630346266697}
   m_Layer: 0
   m_Name: Badger
   m_TagString: Player
@@ -159,7 +159,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.25, y: 0.25}
   m_Direction: 0
---- !u!114 &424317154316551988
+--- !u!114 &4066559922323818478
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -168,15 +168,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 2240785534339210406}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 006f03cc65e7c9d4b8e3a60eebc526aa, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b6003faa84924b41aed6eb75359a0a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Move2D
   Speed: 6
   Animator: {fileID: 0}
   SpriteRenderer: {fileID: 0}
-  KeyboardInput: {fileID: 6672213459507496778}
-  GamepadInput: {fileID: 5827991459645916770}
---- !u!114 &5827991459645916770
+  KeyboardInput: {fileID: 0}
+  GamepadInput: {fileID: 0}
+--- !u!114 &-4739458859325449606
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -185,21 +185,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 2240785534339210406}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21459a563848cef42a6c0208106ace23, type: 3}
+  m_Script: {fileID: 11500000, guid: 192bcc3563d507e48a4883760b87287d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeyboardInput
+--- !u!114 &-1291408630346266697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2240785534339210406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acb385ade6370b14080515ceb8a51d59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GamepadInput
   Deadzone: 0.2
   GamepadIndex: 0
   UseDpad: 1
---- !u!114 &6672213459507496778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2240785534339210406}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 790c55a187606e5429276d5d9be2b767, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::KeyboardInput
