@@ -1601,7 +1601,7 @@ Animator:
   m_GameObject: {fileID: 1820791960}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 13ebcc866ce1abb4d8f3cdd14198e0ec, type: 2}
+  m_Controller: {fileID: 9100000, guid: 884cc446a80990c40bc43fca23c4a1eb, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1772,6 +1772,14 @@ PrefabInstance:
     - target: {fileID: 2291745433433432220, guid: a941d7092c3d8a645b5cd51bdbcc8727, type: 3}
       propertyPath: m_Offset.y
       value: -0.025936639
+      objectReference: {fileID: 0}
+    - target: {fileID: 2515142106756102138, guid: a941d7092c3d8a645b5cd51bdbcc8727, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1127933441503263673, guid: df39e5c2c523d804e93deda0422a7009, type: 3}
+    - target: {fileID: 2515142106756102138, guid: a941d7092c3d8a645b5cd51bdbcc8727, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3761839914210313186, guid: a941d7092c3d8a645b5cd51bdbcc8727, type: 3}
       propertyPath: dialogueControler
