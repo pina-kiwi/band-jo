@@ -15,7 +15,7 @@ public class Move2D : MonoBehaviour
         InitializeComponents();
     }
 
-    private void Update()
+    public void Update()
     {
         GetCombinedInput();
         UpdateAnimator();
@@ -109,7 +109,7 @@ public class Move2D : MonoBehaviour
     }
 
     // Directly modifies transform.position (not using physics)
-    private void ApplyMovement()
+    public void ApplyMovement()
     {
         Vector3 movementDelta = CalculateMovementDelta();
         transform.position = transform.position + movementDelta;
