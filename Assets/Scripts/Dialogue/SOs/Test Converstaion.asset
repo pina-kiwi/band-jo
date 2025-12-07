@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f810d22d4e83ee47b5bed2dbf8704b4, type: 3}
   m_Name: Test Converstaion
   m_EditorClassIdentifier: Assembly-CSharp::DialogueText
-  speakerName: Smith
+  speakerName: The Devil
   paragraphs:
   - Ohhhh... I broke you're dad's banjo?
   - Well that's what he gets when he double crosses me! The Devil! MUAHAHAHAHAHAHA
