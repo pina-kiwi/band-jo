@@ -14,11 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueText
   speakerName: Smith
   paragraphs:
-  - hello, my name is Smith.
-  - i like the color blue. there is something in my pants and i dont know what it
-    is. can you check it out for me?
-  - 'asjdkghkkbm fajnwiebajkndfkbnjfnanewrnvojafsdnvjbon
-
-    nbvissndjfkb,
-
-    bnornasjfkn'
+  - Ohhhh... I broke you're dad's banjo?
+  - Well that's what he gets when he double crosses me! The Devil! MUAHAHAHAHAHAHA
+  - You think you can come into my domain and challenge me? Well you'll suffer the
+    same fate as your father!
