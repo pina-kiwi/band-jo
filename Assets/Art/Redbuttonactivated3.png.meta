@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 82965fe0ef140f14b9ab4568c3c7b9c5
+guid: fb342e5dce9616142a4fb8180cd8ae08
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1383750968215630012
-    second: Pink_button_still_0
+      213: 6580379556404331847
+    second: Redbuttonactivated3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pink_button_still_0
+      name: Redbuttonactivated3_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 456
-        width: 3000
-        height: 2089
+        x: 3
+        y: 0
+        width: 186
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 44f87e963ddebcce0800000000000000
-      internalID: -1383750968215630012
+      spriteID: 74509ba9754325b50800000000000000
+      internalID: 6580379556404331847
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Pink_button_still_0: -1383750968215630012
+      Redbuttonactivated3_0: 6580379556404331847
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

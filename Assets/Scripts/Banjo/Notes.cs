@@ -1,4 +1,6 @@
 using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
@@ -21,5 +23,14 @@ public class Notes : MonoBehaviour
     {
         yield return new WaitForSeconds(GameParameters.NoteDespawnSpeed);
         Destroy(GameObject.FindGameObjectWithTag("Note"));
+    }
+    public void CleanUpPlacedObjects()
+    {
+        List<GameObject> placedObjects = GameObject.FindGameObjectsWithTag("Note").ToList();
+
+        for (int i = 0; i < placedObjects.Count; i++)
+        {
+            Destroy(placedObjects[i]);
+        }
     }
 }

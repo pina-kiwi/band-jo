@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class NoteSpawner : MonoBehaviour
 {
+    public BanjoFretBoundaries BanjoFretBoundaries;
+    
     public GameObject redNotePrefab;
     public GameObject blueNotePrefab;
     public GameObject greenNotePrefab;
@@ -10,7 +12,7 @@ public class NoteSpawner : MonoBehaviour
     public GameObject purpleNotePrefab;
     public bool isOkayToCreate = false;
     
-    public float spawnInterval = 1f;
+    public float spawnInterval = 0.5f;
 
     void Start()
     {
@@ -27,6 +29,7 @@ public class NoteSpawner : MonoBehaviour
     public void SpawnRedNote()
     {
         Instantiate(redNotePrefab, new Vector3(2.5f,0.9f,0f), Quaternion.identity);
+        BanjoFretBoundaries.NoteBoundary();
     }
     
     public void SpawnBlueNote()
@@ -55,8 +58,5 @@ public class NoteSpawner : MonoBehaviour
         yield return new WaitForSeconds(secondsToWait);
     }
 
-    public void SpawnPlacement()
-    {
-        transform.position = new Vector3(3f, 2f, 0f);
-    }
+    
 }

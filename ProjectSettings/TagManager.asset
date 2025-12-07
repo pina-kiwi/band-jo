@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Camera1
   - HealthBarPlayer
+  - RedNote
+  - BlueNote
+  - GreenNote
+  - PurpleNote
+  - PinkNote
   - Note
   layers:
   - Default
