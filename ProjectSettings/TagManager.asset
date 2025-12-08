@@ -12,6 +12,7 @@ TagManager:
   - PurpleNote
   - PinkNote
   - Note
+  - FightTrigger
   layers:
   - Default
   - TransparentFX

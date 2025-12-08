@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Game : MonoBehaviour
 {
+    public SceneChanger sceneChanger;
     public UI UI;
     public bool isPlaying = false;
 
@@ -14,5 +15,6 @@ public class Game : MonoBehaviour
     public void InitializeGame()
     {
         isPlaying = true;
+        sceneChanger.LoadMainScene();
     }
 }
