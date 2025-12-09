@@ -1,36 +1,31 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Unity.VisualScripting;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class Notes : MonoBehaviour
 {
-    public NoteSpawner NoteSpawner;
-    public GameObject blueNotePrefab;
+    private NoteSpawner NoteSpawner;
+    private BanjoFretBoundaries BanjoFretBoundaries;
+    public bool isAbleToBePressed = false;
     public float noteSpeed = 5f;
+    public KeyCode activateKey;
 
     void Start()
     {
-        StartCoroutine(NoteDespawner());
+        
+        
     }
     void Update()
     {
         transform.Translate(Vector3.left * Time.deltaTime * noteSpeed);
+        
     }
 
-    IEnumerator NoteDespawner()
-    {
-        yield return new WaitForSeconds(GameParameters.NoteDespawnSpeed);
-        Destroy(GameObject.FindGameObjectWithTag("Note"));
-    }
-    public void CleanUpPlacedObjects()
-    {
-        List<GameObject> placedObjects = GameObject.FindGameObjectsWithTag("Note").ToList();
+  
 
-        for (int i = 0; i < placedObjects.Count; i++)
-        {
-            Destroy(placedObjects[i]);
-        }
-    }
+    
 }

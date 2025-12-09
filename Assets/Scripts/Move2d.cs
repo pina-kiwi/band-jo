@@ -10,7 +10,7 @@ public class Move2D : MonoBehaviour
     
 
     private Vector2 currentMovementInput;
-    private Rigidbody2D rigidbody2D;
+    public Rigidbody2D rigidBody2D; 
     private Vector2 moveInput;
     private Animator animator;
 
@@ -29,7 +29,7 @@ public class Move2D : MonoBehaviour
 
     public void Start()
     {
-        rigidbody2D = GetComponent<Rigidbody2D>();
+        rigidBody2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
     

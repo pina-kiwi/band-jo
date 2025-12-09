@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 4600154186456440026}
   - component: {fileID: -4174487079572865754}
   - component: {fileID: -2343709591640451563}
+  - component: {fileID: -4339844860817754851}
   m_Layer: 0
   m_Name: Pink orb
-  m_TagString: PinkNote
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105,9 +106,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ebe0410834f3149b7ffa8d8c147c4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Notes
-  NoteSpawner: {fileID: 0}
-  blueNotePrefab: {fileID: 0}
-  noteSpeed: 5
+  isAbleToBePressed: 0
+  noteSpeed: 2
+  activateKey: 103
 --- !u!50 &-4174487079572865754
 Rigidbody2D:
   serializedVersion: 5
@@ -116,7 +117,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6894948519698270503}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -181,3 +182,17 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.92, y: 1.92}
   m_EdgeRadius: 0
+--- !u!114 &-4339844860817754851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6894948519698270503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aabf01b0a8c77f4088f2d6154536599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BanjoFretBoundaries
+  fretBoundaryMinXPosition: -3
+  fretBoundaryMaxXPosition: 3

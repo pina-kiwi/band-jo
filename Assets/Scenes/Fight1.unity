@@ -588,6 +588,7 @@ GameObject:
   - component: {fileID: 415472662}
   - component: {fileID: 415472663}
   - component: {fileID: 415472664}
+  - component: {fileID: 415472665}
   m_Layer: 5
   m_Name: RedButton
   m_TagString: Untagged
@@ -769,63 +770,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!1 &461474050
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 461474052}
-  - component: {fileID: 461474051}
-  - component: {fileID: 461474053}
-  m_Layer: 0
-  m_Name: Input
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &461474051
+--- !u!114 &415472665
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 461474050}
+  m_GameObject: {fileID: 415472655}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 167cc629f03795742954722e12ff2de9, type: 3}
+  m_Script: {fileID: 11500000, guid: 985acb16efb7a8d4b90e6664171c33cd, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::KeyboardInput
---- !u!4 &461474052
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 461474050}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &461474053
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 461474050}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 192bcc3563d507e48a4883760b87287d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::KeyboardInput
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHits
+  isAbleToBePressed: 0
+  activateKey: 0
 --- !u!1 &471523100
 GameObject:
   m_ObjectHideFlags: 0
@@ -1152,6 +1110,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 659074954}
   m_CullTransparentMesh: 1
+--- !u!1 &751355182
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 751355184}
+  - component: {fileID: 751355183}
+  m_Layer: 0
+  m_Name: Input
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &751355183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751355182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 192bcc3563d507e48a4883760b87287d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeyboardInput
+--- !u!4 &751355184
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751355182}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.11294, y: 1.6538, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &787496763
 GameObject:
   m_ObjectHideFlags: 0
@@ -1166,6 +1168,7 @@ GameObject:
   - component: {fileID: 787496765}
   - component: {fileID: 787496770}
   - component: {fileID: 787496771}
+  - component: {fileID: 787496772}
   m_Layer: 5
   m_Name: PurpleButton
   m_TagString: Untagged
@@ -1319,7 +1322,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1335,6 +1338,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &787496772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787496763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985acb16efb7a8d4b90e6664171c33cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHits
+  isAbleToBePressed: 0
+  activateKey: 0
 --- !u!1 &886260904
 GameObject:
   m_ObjectHideFlags: 0
@@ -1513,12 +1530,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5aabf01b0a8c77f4088f2d6154536599, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BanjoFretBoundaries
-  fretBoundary:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
+  fretBoundaryMinXPosition: -3
+  fretBoundaryMaxXPosition: 3
 --- !u!1 &890876380
 GameObject:
   m_ObjectHideFlags: 0
@@ -1644,7 +1657,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Fight1Game
   Player: {fileID: 0}
   Move2D: {fileID: 0}
-  KeyboardInput: {fileID: 461474053}
+  KeyboardInput: {fileID: 0}
 --- !u!1 &1231022921
 GameObject:
   m_ObjectHideFlags: 0
@@ -1659,6 +1672,8 @@ GameObject:
   - component: {fileID: 1231022923}
   - component: {fileID: 1231022929}
   - component: {fileID: 1231022930}
+  - component: {fileID: 1231022931}
+  - component: {fileID: 1231022932}
   m_Layer: 5
   m_Name: PinkButton
   m_TagString: Untagged
@@ -1840,6 +1855,66 @@ MonoBehaviour:
   defaultSprite: {fileID: 21300000, guid: 82965fe0ef140f14b9ab4568c3c7b9c5, type: 3}
   pressedSprite: {fileID: 21300000, guid: 3a48526f8969cd34aae6578e1721ae67, type: 3}
   keyToPressForButtonActivation: 103
+--- !u!61 &1231022931
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231022921}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.0001, y: 0.0001}
+  m_EdgeRadius: 0
+--- !u!114 &1231022932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231022921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985acb16efb7a8d4b90e6664171c33cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHits
+  isAbleToBePressed: 0
+  activateKey: 0
 --- !u!1 &1413676674
 GameObject:
   m_ObjectHideFlags: 0
@@ -1941,7 +2016,7 @@ Animator:
   m_GameObject: {fileID: 1413676674}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 13ebcc866ce1abb4d8f3cdd14198e0ec, type: 2}
+  m_Controller: {fileID: 9100000, guid: 884cc446a80990c40bc43fca23c4a1eb, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1966,8 +2041,8 @@ GameObject:
   - component: {fileID: 1519690084}
   - component: {fileID: 1519690083}
   - component: {fileID: 1519690087}
-  - component: {fileID: 1519690086}
   - component: {fileID: 1519690088}
+  - component: {fileID: 1519690089}
   m_Layer: 5
   m_Name: BlueButton
   m_TagString: Untagged
@@ -2076,33 +2151,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1519690081}
   m_CullTransparentMesh: 1
---- !u!54 &1519690086
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1519690081}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &1519690087
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2118,7 +2166,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -2139,6 +2187,20 @@ MonoBehaviour:
   defaultSprite: {fileID: 21300000, guid: 5c78dbbffb71bcd4489e482404c03177, type: 3}
   pressedSprite: {fileID: 21300000, guid: d3109da4e40f742459adfeb7a87a0fc1, type: 3}
   keyToPressForButtonActivation: 100
+--- !u!114 &1519690089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519690081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985acb16efb7a8d4b90e6664171c33cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHits
+  isAbleToBePressed: 0
+  activateKey: 0
 --- !u!1 &1715620306
 GameObject:
   m_ObjectHideFlags: 0
@@ -2485,6 +2547,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 904cd0f6bfadf5d4a805e937a837dd5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
+  sceneChanger: {fileID: 0}
   HeartSpriteRenderer: {fileID: 0}
 --- !u!54 &1866290930
 Rigidbody:
@@ -2625,6 +2688,7 @@ MonoBehaviour:
   SpriteRenderer: {fileID: 0}
   KeyboardInput: {fileID: 1866290936}
   GamepadInput: {fileID: 1866290935}
+  rigidBody2D: {fileID: 0}
 --- !u!114 &1866290935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2853,7 +2917,6 @@ MonoBehaviour:
   greenNotePrefab: {fileID: 8171748518314027061, guid: 49ba3262d3b7fb1418eb2b2c0a6846a4, type: 3}
   pinkNotePrefab: {fileID: 6894948519698270503, guid: 3fc3a4d0be4bb8d43855061f294126de, type: 3}
   purpleNotePrefab: {fileID: 2638202099675323295, guid: 6a2b9271216476245aa307df270fcebb, type: 3}
-  isOkayToCreate: 0
   spawnInterval: 1
 --- !u!114 &1925006368
 MonoBehaviour:
@@ -2883,8 +2946,8 @@ GameObject:
   - component: {fileID: 2065898576}
   - component: {fileID: 2065898575}
   - component: {fileID: 2065898579}
-  - component: {fileID: 2065898578}
   - component: {fileID: 2065898580}
+  - component: {fileID: 2065898581}
   m_Layer: 5
   m_Name: GreenButton
   m_TagString: Untagged
@@ -2993,33 +3056,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2065898573}
   m_CullTransparentMesh: 1
---- !u!54 &2065898578
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2065898573}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &2065898579
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3035,7 +3071,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -3056,6 +3092,20 @@ MonoBehaviour:
   defaultSprite: {fileID: 21300000, guid: 880fd754c8e53094aa0812ecc28d7735, type: 3}
   pressedSprite: {fileID: 21300000, guid: 5767461f0299ae145ab7616575fcb84c, type: 3}
   keyToPressForButtonActivation: 102
+--- !u!114 &2065898581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065898573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985acb16efb7a8d4b90e6664171c33cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHits
+  isAbleToBePressed: 0
+  activateKey: 0
 --- !u!1 &2111678882
 GameObject:
   m_ObjectHideFlags: 0
@@ -3273,8 +3323,8 @@ SceneRoots:
   - {fileID: 258756910}
   - {fileID: 575137768}
   - {fileID: 890876383}
+  - {fileID: 751355184}
   - {fileID: 1126378894}
-  - {fileID: 461474052}
   - {fileID: 1413676676}
   - {fileID: 91751884}
   - {fileID: 1715620308}

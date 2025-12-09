@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 3845446287094915473}
   - component: {fileID: 4900968595179754235}
   - component: {fileID: 2624840123888315189}
+  - component: {fileID: 6524690660022801098}
   m_Layer: 0
   m_Name: PurpleOrb
-  m_TagString: PurpleNote
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105,9 +106,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ebe0410834f3149b7ffa8d8c147c4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Notes
-  NoteSpawner: {fileID: 0}
-  blueNotePrefab: {fileID: 5894664857442161269, guid: bcd6c18680b5c6d48a5f3e407601ede2, type: 3}
-  noteSpeed: 5
+  isAbleToBePressed: 0
+  noteSpeed: 2
+  activateKey: 115
 --- !u!50 &4900968595179754235
 Rigidbody2D:
   serializedVersion: 5
@@ -116,7 +117,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2638202099675323295}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -181,3 +182,17 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.92, y: 1.92}
   m_EdgeRadius: 0
+--- !u!114 &6524690660022801098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2638202099675323295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aabf01b0a8c77f4088f2d6154536599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BanjoFretBoundaries
+  fretBoundaryMinXPosition: -3
+  fretBoundaryMaxXPosition: 3

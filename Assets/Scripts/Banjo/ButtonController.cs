@@ -8,6 +8,7 @@ public class ButtonController : MonoBehaviour
     private SpriteRenderer ButtonSpriteRenderer;
     public Sprite defaultSprite;
     public Sprite pressedSprite;
+    
 
     private Image image;
     public KeyCode keyToPressForButtonActivation = KeyCode.A;
@@ -41,7 +42,9 @@ public class ButtonController : MonoBehaviour
                 image.sprite = defaultSprite;
             }
         }
-
-
+        
     }
+    
+    
+    
 }

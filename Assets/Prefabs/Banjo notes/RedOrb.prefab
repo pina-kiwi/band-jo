@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3299817821571173195}
   - component: {fileID: 4402059880259517658}
   - component: {fileID: -1150071472787525677}
+  - component: {fileID: -2460450037754831352}
   m_Layer: 0
   m_Name: RedOrb
   m_TagString: Note
@@ -105,9 +106,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ebe0410834f3149b7ffa8d8c147c4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Notes
-  NoteSpawner: {fileID: 0}
-  blueNotePrefab: {fileID: 0}
-  noteSpeed: 5
+  isAbleToBePressed: 0
+  noteSpeed: 2
+  activateKey: 97
 --- !u!50 &4402059880259517658
 Rigidbody2D:
   serializedVersion: 5
@@ -116,7 +117,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6260813071485937469}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -181,3 +182,17 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.92, y: 1.92}
   m_EdgeRadius: 0
+--- !u!114 &-2460450037754831352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6260813071485937469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aabf01b0a8c77f4088f2d6154536599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BanjoFretBoundaries
+  fretBoundaryMinXPosition: -3
+  fretBoundaryMaxXPosition: 3
