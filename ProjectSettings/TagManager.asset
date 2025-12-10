@@ -13,6 +13,7 @@ TagManager:
   - PinkNote
   - Note
   - FightTrigger
+  - Button
   layers:
   - Default
   - TransparentFX
