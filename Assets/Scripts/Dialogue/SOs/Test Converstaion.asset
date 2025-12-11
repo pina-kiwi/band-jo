@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueText
   speakerName: The Devil
   paragraphs:
-  - Ohhhh... I broke you're dad's banjo?
+  - Ohhhh... I broke your dad's banjo?
   - Well that's what he gets when he double crosses me! The Devil! MUAHAHAHAHAHAHA
   - You think you can come into my domain and challenge me? Well you'll suffer the
     same fate as your father!
