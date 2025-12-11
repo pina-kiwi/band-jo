@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 
 public class Game : MonoBehaviour
 {
@@ -16,7 +17,13 @@ public class Game : MonoBehaviour
     {
         UI.HideWinScreen();
         UI.HideLoseScreen();
+        
         InitializeGame();
+    }
+
+    private void Reset()
+    {
+        
     }
 
     public void InitializeGame()

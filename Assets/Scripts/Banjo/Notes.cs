@@ -9,7 +9,7 @@ using UnityEngine;
 public class Notes : MonoBehaviour
 {
     private NoteSpawner NoteSpawner;
-    private NoteMovement NoteMovement;
+   // private NoteMovement NoteMovement;
     private BanjoFretBoundaries BanjoFretBoundaries;
     public bool isAbleToBePressed;
     public float noteSpeed = 5f;
