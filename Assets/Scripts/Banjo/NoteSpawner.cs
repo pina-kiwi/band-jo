@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class NoteSpawner : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class NoteSpawner : MonoBehaviour
     public GameObject pinkNotePrefab;
     public GameObject purpleNotePrefab;
 
+    public float noteSpeed = 2f;
     
     
     
@@ -19,39 +21,47 @@ public class NoteSpawner : MonoBehaviour
     void Start()
     {
         StartCoroutine(CountdownUntilNoteSpawn());
+        SpawnAllNotes();
         
     }
-    
-    
+
+    public void SpawnAllNotes()
+    {
+        InvokeRepeating("SpawnRedNote", 0f, 7f);
+        InvokeRepeating("SpawnBlueNote", 1f, 3f);
+        InvokeRepeating("SpawnGreenNote", 0.5f,2f );
+        InvokeRepeating("SpawnPinkNote", 1.5f, 5f);
+        InvokeRepeating("SpawnPurpleNote", 2f, 10f); 
+    }
 
     public void SpawnRedNote()
     {
-        Instantiate(redNotePrefab, new Vector3(2.5f, 0.9f, 0f), Quaternion.identity);
-        
+        Instantiate(redNotePrefab, new Vector3(1207f, 639.2f, 0f), Quaternion.identity);
     }
     
     public void SpawnBlueNote()
     {
-        Instantiate(blueNotePrefab, new Vector3(2.5f,0f,0f), Quaternion.identity);
+        Instantiate(blueNotePrefab, new Vector3(1207f,540.7f,0f), Quaternion.identity);
+        
         
     }
     
     public void SpawnGreenNote()
     {
-        Instantiate(greenNotePrefab, new Vector3(2.5f,-0.45f,0f), Quaternion.identity);
+        Instantiate(greenNotePrefab, new Vector3(1207f,494.8f,0f), Quaternion.identity);
         
     }
     
     public void SpawnPinkNote()
     {
-        Instantiate(pinkNotePrefab,new Vector3(2.5f,-0.9f,0f), Quaternion.identity);
+        Instantiate(pinkNotePrefab,new Vector3(1207f,443.2f,0f), Quaternion.identity);
         
     }
     
     public void SpawnPurpleNote()
     {
-        Instantiate(purpleNotePrefab, new Vector3(2.5f,0.45f,0f), Quaternion.identity);
-        
+        Instantiate(purpleNotePrefab, new Vector3(1207f,588.7f,0f), Quaternion.identity);
+       
     }
 
     IEnumerator CountdownUntilNoteSpawn()
@@ -59,11 +69,8 @@ public class NoteSpawner : MonoBehaviour
         //float maxNumberOfNotesToSpawn = 5f;
         float secondsToWait = Random.Range(GameParameters.minimumSecondsToWait, GameParameters.maximumSecondsToWait);
         yield return new WaitForSeconds(secondsToWait);
-        InvokeRepeating("SpawnRedNote", 0f, 7f);
-        InvokeRepeating("SpawnBlueNote", 0f, 3f);
-        InvokeRepeating("SpawnGreenNote", 0f,2f );
-        InvokeRepeating("SpawnPinkNote", 0f, 5f);
-        InvokeRepeating("SpawnPurpleNote", 0f, 10f); 
+       
+        
     }
 
    

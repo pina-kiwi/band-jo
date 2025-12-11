@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class BanjoLane : MonoBehaviour
 {
+
+    public bool isAbleToBePressed;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -12,15 +14,30 @@ public class BanjoLane : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (isAbleToBePressed)
+        {
+            if (Input.GetKeyDown(KeyCode.A))
+            {
+                Destroy(gameObject);
+            }
+        }
         
     }
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "RedNote" && Input.GetKeyDown(KeyCode.A))
+        if (other.tag=="Button")
         {
-            Destroy(other.gameObject);
+            isAbleToBePressed = true;
+            
+        }
+    }
 
+    public void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.tag == "Button")
+        {
+            isAbleToBePressed = false;
         }
     }
 }

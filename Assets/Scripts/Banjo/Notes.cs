@@ -9,11 +9,13 @@ using UnityEngine;
 public class Notes : MonoBehaviour
 {
     private NoteSpawner NoteSpawner;
+    private NoteMovement NoteMovement;
     private BanjoFretBoundaries BanjoFretBoundaries;
-    public bool isAbleToBePressed = false;
+    public bool isAbleToBePressed;
     public float noteSpeed = 5f;
     public KeyCode activateKey;
-
+    
+   
     void Start()
     {
         
@@ -21,8 +23,34 @@ public class Notes : MonoBehaviour
     }
     void Update()
     {
-        transform.Translate(Vector3.left * Time.deltaTime * noteSpeed);
         
+            
+        
+        
+        
+        /*
+        if (isAbleToBePressed && Input.GetKeyDown(activateKey))
+        {
+            print("note hit");
+            Destroy(gameObject);
+        }*/
+    }
+    
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag=="Button")
+        {
+            isAbleToBePressed = true;
+            
+        }
+    }
+
+    public void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.tag == "Button")
+        {
+            isAbleToBePressed = false;
+        }
     }
 
   

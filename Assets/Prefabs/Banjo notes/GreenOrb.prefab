@@ -14,7 +14,8 @@ GameObject:
   - component: {fileID: -8156690435150275108}
   - component: {fileID: 5073969017946145596}
   - component: {fileID: -3499921565830146985}
-  m_Layer: 0
+  - component: {fileID: -7347861076544558502}
+  m_Layer: 6
   m_Name: GreenOrb
   m_TagString: Note
   m_Icon: {fileID: 0}
@@ -30,8 +31,8 @@ Transform:
   m_GameObject: {fileID: 8171748518314027061}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -957.62, y: -540.5, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_LocalPosition: {x: 1207, y: 494.8, z: 0}
+  m_LocalScale: {x: 26.29, y: 26.29, z: 26.29}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -80,8 +81,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -959241875
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: ebc7152084d9a3349b24c7d141cdcb91, type: 3}
   m_Color: {r: 0, g: 1, b: 0, a: 1}
@@ -153,7 +154,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.92, y: 1.92}
+  m_Size: {x: 2, y: 2}
   m_EdgeRadius: 0
 --- !u!114 &5073969017946145596
 MonoBehaviour:
@@ -167,8 +168,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5aabf01b0a8c77f4088f2d6154536599, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BanjoFretBoundaries
-  fretBoundaryMinXPosition: -3
-  fretBoundaryMaxXPosition: 3
+  fretBoundaryMinXPosition: 647
+  fretBoundaryMaxXPosition: 1263
 --- !u!50 &-3499921565830146985
 Rigidbody2D:
   serializedVersion: 5
@@ -196,3 +197,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &-7347861076544558502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8171748518314027061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ba50ffdd58ad424ab273bf053816db1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NoteMovement
+  noteSpeed: 90

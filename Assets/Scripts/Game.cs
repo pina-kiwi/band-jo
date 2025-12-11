@@ -12,6 +12,13 @@ public class Game : MonoBehaviour
         InitializeGame();
     }
 
+    public void OnPlayAgainClick()
+    {
+        UI.HideWinScreen();
+        UI.HideLoseScreen();
+        InitializeGame();
+    }
+
     public void InitializeGame()
     {
         isPlaying = true;
